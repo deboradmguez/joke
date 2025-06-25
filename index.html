@@ -10,46 +10,53 @@
 </head>
 <style>
   body {
-  background-image: url("fondo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-}
-  .btn{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .btn {
     background-color: #1f0425;
     color: aliceblue;
   }
-  .btn :hover{
+
+  .btn :hover {
     background-color: #160906;
   }
 </style>
 
 <body>
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <button type="button" class="btn" id="presionar" data-bs-toggle="modal" data-bs-target="#exampleModal">Presiona este botón</button>
+    <button type="button" class="btn" id="presionar" data-bs-toggle="modal" data-bs-target="#exampleModal">Presiona este
+      botón</button>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      
-      <div class="modal-body" style="background-color: #CFCBE1;">
-        <img src="descarga.jpg" alt="" height="200px" width="200px">
-        Wenas noches mini
-      </div>
-      <div class="modal-footer" style="background-color: #3A314F;">
-        <button type="button" class="btn" style="background-color: #3A314F;" data-bs-dismiss="modal">Close</button>
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body" style="background-color: #CFCBE1;">
+            <img src="descarga.jpg" alt="" height="200" width="200">
+            <div class="d-flex align-items-center">
+              <p style="padding-right: 10px;">Wenas noches mini</p>
+              <canvas id="florCanvas" width="50" height="50"></canvas>
+            </div>
+
+          </div>
+          <div class="modal-footer" style="background-color: #3A314F;">
+            <button type="button" class="btn" style="background-color: #3A314F;" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
 </body>
 <script src="dia1.js"></script>
 </body>
