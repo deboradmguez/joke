@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>welcome</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<style>
+  body {
+  background-image: url("fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+  .btn{
+    background-color: #1f0425;
+    color: aliceblue;
+  }
+  .btn :hover{
+    background-color: #160906;
+  }
+</style>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <button type="button" class="btn" id="presionar" data-bs-toggle="modal" data-bs-target="#exampleModal">Presiona este botón</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body" style="background-color: #CFCBE1;">
+        <img src="descarga.jpg" alt="" height="200px" width="200px">
+        Wenas noches mini
+      </div>
+      <div class="modal-footer" style="background-color: #3A314F;">
+        <button type="button" class="btn" style="background-color: #3A314F;" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+<script src="dia1.js"></script>
+</body>
+
+</html>
